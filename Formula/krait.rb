@@ -6,14 +6,14 @@ class Krait < Formula
 
  on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/releases/download/v0.1.0/krait-macos-arm64"
+      url "https://github.com/v-zhukovetskyi/krait/releases/download/v0.1.0/krait-macos-arm64"
       sha256 "f7acfe884e981b5aca599a2b833d8d2f29d758f2919aba9ab0b9a97a9b37cf03"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/releases/download/v0.1.0/krait-linux-x86_64"
+      url "https://github.com/v-zhukovetskyi/krait/releases/download/v0.1.0/krait-linux-x86_64"
       sha256 "9b8f3f5a93036dc4a91a75919cb41954ce5c508b062b08130a6efd066b76c13e"
     end
   end
